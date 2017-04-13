@@ -1,0 +1,57 @@
+.masthead {
+    background: lightpink;
+}
+
+.site-title {
+    color: black;
+}
+
+.main-area {
+    padding: 2em;
+    background-color: lightpink;
+}
+
+.slider{
+  width:400px;
+  margin:20px auto;
+  text-align: center;
+  padding:20px;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 100%;
+  flex-wrap: wrap;
+  background: fade(#ebebeb, 10%);
+  height:250px;
+}
+
+.slide{
+    display:flex;
+    flex: 1 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.slide img{
+      display: block;
+      margin:auto;
+}
+
+.message h2{
+    display: flex;
+    justify-content: center;
+}
+
+.pink{
+    color: deeppink;
+}
+
+.yellow{
+    color: yellow;
+}
+
+span {
+    white-space:pre;
+}
