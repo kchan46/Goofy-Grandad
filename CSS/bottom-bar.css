@@ -1,0 +1,23 @@
+.bottom-bar {
+    float: right;
+    background-color: deeppink;
+    padding: 0px;
+}
+
+.bottom-bar li {
+    list-style-type: none;
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    border: solid blue 10px;
+    float: right;
+    overflow: hidden;
+    text-align: center;
+    height: 67px;
+}
+
+.bottom-bar li, a {
+    text-decoration: none;
+    color: black;
+}

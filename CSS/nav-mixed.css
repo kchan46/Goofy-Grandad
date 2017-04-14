@@ -10,4 +10,6 @@
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    width: 65%;
+    float: right;
 }

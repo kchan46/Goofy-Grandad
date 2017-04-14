@@ -1,0 +1,53 @@
+/*Styles for the navigation bar and the bottom bar*/
+header {
+    background-color: white;
+}
+
+.nav-bar {
+    float: right;
+    background-color: deeppink;
+    margin-top: 3%;
+    margin-left: 32%;
+    border-left: 10px;
+    border-right: 10px;
+    height: 60px;
+}
+
+.nav-bar li {
+    list-style-type: none;
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-bar li:first-child {
+    margin-left: 20px;
+}
+
+.nav-bar li:last-child {
+    margin-right: 100px;
+}
+
+.nav-bar a {
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#web_icon, #web_title {
+    height: 50px;
+    display: inline;
+    margin-top: 3%;
+    float: left;
+    background-color: deeppink;
+}
+
+#web_title {
+    width: 300px;
+}
+
+#web_icon {
+    width: 50px;
+    margin-left: 20px;
+}
