@@ -58,6 +58,29 @@ body {
     color: yellow;
 }
 
+.biophoto {
+    width:300px;
+    height: 400px;
+}
+
+.biophoc {
+        display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about article{
+    padding: 2em;
+}
+
+.about img {
+    padding: 2em;
+}
+/*
 span {
     white-space:pre;
-}
+}*/
