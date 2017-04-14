@@ -1,4 +1,3 @@
-/*Styles for the navigation bar and the bottom bar*/
 
 .header {
     display: inline;
@@ -35,6 +34,10 @@
     /*margin-right: 100px;*/
 }
 
+#current_page {
+    color: yellow;
+}
+
 .nav-bar a {
     padding: 14px 16px;
     text-align: center;
@@ -50,11 +53,19 @@
     background-color: deeppink;
 }
 
+#nav-placeholder {
+    height: 50px;
+    margin-top: 3%;
+    float: left;
+    width: 3%;
+    background-color: white;
+}
+
 #web_title {
     width: 300px;
 }
 
 #web_icon {
     width: 50px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
 }
