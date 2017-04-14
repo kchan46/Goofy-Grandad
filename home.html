@@ -12,6 +12,10 @@
     <link rel="stylesheet"
           href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/
+          css/font-awesome.min.css">
+    <!--Gonghan: I used the above library for social media icons.-->
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <script type="text/javascript"
             src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -25,20 +29,21 @@
 <body>
 <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 <div class="outer-wrap">
+    <div class="header">
+        <img id="web_icon" src="images/goofy_grandad_icon.jpg">
+        <img id="web_title" src="images/web_title.jpg">
 
-    <img id="web_icon" src="images/goofy_grandad_icon.jpg">
-    <img id="web_title" src="images/web_title.jpg">
-
-    <ul class="nav-bar">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="review.html">Review</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="faq.html">FAQ</a></li>
-    </ul>
+        <ul class="nav-bar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="review.html">Review</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
 
     <div class="content">
         <main class="main-area">
@@ -76,12 +81,16 @@
 
     </div><!-- .content -->
 
-    <ul class="bottom-bar">
-        <li>The Powerfilled Thinking Group, Inc.</li>
-        <li>© Goofy Grandad 2017</li>
-        <li><a href="about.html">Terms & Conditions</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <div class="footer">
+        <i id="facebook" class="fa fa-facebook-official"></i>
+        <i id="youtube" class="fa fa-youtube-square"></i>
+        <ul class="bottom-bar">
+            <li id="company_name">The Powerfilled Thinking Group, Inc.</li>
+            <li id="copyright">© Goofy Grandad 2017</li>
+            <li id="terms"><a href="about.html">Terms & Conditions</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
 
 </div><!-- .outer-wrap -->
 </body>
