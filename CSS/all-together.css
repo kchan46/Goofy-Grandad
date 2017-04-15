@@ -1,5 +1,4 @@
 body {
-    /*background-color: #ffe6f2;*/
     background-color: lightpink;
 }
 
@@ -13,8 +12,8 @@ body {
 
 .main-area {
     padding: 2em;
-    /*background-color: #ffe6f2;*/
     background-color: lightpink;
+    min-height: 520px;
 }
 
 .slider{
