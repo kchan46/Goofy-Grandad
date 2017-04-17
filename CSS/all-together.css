@@ -13,7 +13,7 @@ body {
 .main-area {
     padding: 2em;
     background-color: lightpink;
-    min-height: 520px;
+    /*min-height: 520px;*/
 }
 
 .slider{

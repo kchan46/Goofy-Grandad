@@ -1,6 +1,9 @@
 .footer {
     background-color: deeppink;
-    margin-bottom: 0%;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .bottom-bar {

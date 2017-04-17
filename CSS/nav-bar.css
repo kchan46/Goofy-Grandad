@@ -2,13 +2,20 @@
 .header {
     display: inline;
     /*background-color: white;*/
+    /*position: absolute;*/
+    /*top: 3%;*/
+    /*margin-bottom: 3%;*/
+}
+
+.nav-bar, #web_icon, #web_title, #nav-placeholder {
+    margin-top: 3%;
 }
 
 .nav-bar {
     float: right;
     display: inline;
     background-color: deeppink;
-    margin-top: 3%;
+    /*margin-top: 3%;*/
     margin-bottom: 0px;
     height: 50px;
     width: 65%;
@@ -48,14 +55,14 @@
 #web_icon, #web_title {
     height: 50px;
     /*display: inline;*/
-    margin-top: 3%;
+    /*margin-top: 3%;*/
     float: left;
     background-color: deeppink;
 }
 
 #nav-placeholder {
     height: 50px;
-    margin-top: 3%;
+    /*margin-top: 3%;*/
     float: left;
     width: 3%;
     background-color: white;
