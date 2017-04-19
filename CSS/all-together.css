@@ -16,37 +16,16 @@ body {
     /*min-height: 520px;*/
 }
 
-.slider{
-  width:400px;
-  margin:20px auto;
-  text-align: center;
-  padding:20px;
-  color:white;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1 100%;
-  flex-wrap: wrap;
-  background: fade(#ebebeb, 10%);
-  height:250px;
+.elements {
+  display: flex;
+  padding: 2em;
 }
 
-.slide{
-    display:flex;
-    flex: 1 100%;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
-  
-.slide img{
-      display: block;
-      margin:auto;
-}
 
 .message h2{
     display: flex;
     justify-content: center;
+    padding: 2em;
 }
 
 .pink{
@@ -58,12 +37,12 @@ body {
 }
 
 .biophoto {
-    width:300px;
-    height: 400px;
+    width:400px;
+    height: 500px;
 }
 
 .biophoc {
-        display: flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -79,7 +58,3 @@ body {
 .about img {
     padding: 2em;
 }
-/*
-span {
-    white-space:pre;
-}*/

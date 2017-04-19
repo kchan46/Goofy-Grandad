@@ -11,15 +11,6 @@
     <link rel="stylesheet" href="style.css" type="text/css" media="all">
     <link rel="stylesheet"
           href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <script type="text/javascript"
-            src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript"
-            src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="slider.js"></script>
-
 </head>
 
 <body>
@@ -48,33 +39,29 @@
 
     <div class="content">
         <main class="main-area">
-            <section class="cards">
 
-                <article class="card">
-                    <div class="slider">
-                        <div class="slide">
-                            <img src="images/elephantwalk.jpg" alt="" class="img-responsive"/>
-                            <!-- <h1>Elephant Walk</h1>-->
-                        </div>
-                        <div class="slide">
-                            <img src="images/partial_bookcover.jpg" alt="" class="img-responsive"/>
-                            <!-- <h1>Grandparents</h1>-->
-                        </div>
-                        <div class="slide">
-                            <img src="images/sammy.jpg" alt="" class="img-responsive"/>
-                            <!-- <h1>Sammy Squirrel</h1>-->
-                        </div>
-                    </div>
-                </article>
-                <article class="card">
-                    <iframe width="550" height="360"
-                            src="https://www.youtube.com/embed/5UNkjgf5Uao?ecver=1"
-                            frameborder="0" allowfullscreen></iframe>
-                </article>
-            </section>
+            <div class= "elements">
+              <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="images/elephantwalk.jpg" alt="" class="img-responsive" width="550" height ="360"/>
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/sammy.jpg" alt="" class="img-responsive" width="550" height ="360"/>
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/partial_bookcover.jpg" alt="" class="img-responsive" width="550" height ="360"/>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <iframe class="img-responsive" width="550" height ="360"
+                        src="https://www.youtube.com/embed/5UNkjgf5Uao?ecver=1"
+                        frameborder="0" allowfullscreen>
+              </iframe>
+            </div>
             <div class="message">
                 <h2>Dedicated to bringing messages of &nbsp; <span class="pink">
-                    love </span> &nbsp; and &nbsp; <span class="yellow"> happiness </span> &nbsp; 
+                    love </span> &nbsp; and &nbsp; <span class="yellow"> happiness </span> &nbsp;
                     to kids and seniors.
                 </h2>
             </div>
@@ -100,6 +87,7 @@
     </div>
 
 </div><!-- .outer-wrap -->
+<script src="slider.js"></script>
 </body>
 
 </html>
