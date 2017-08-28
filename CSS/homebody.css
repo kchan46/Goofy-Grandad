@@ -1,0 +1,24 @@
+/*
+This page contains all the classes that modify the style of the main content on the Home page (see home.html)
+*/
+
+.elements {
+  display: flex;
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.message h2{
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.pink{
+    color: deeppink;
+}
+
+.yellow{
+    color: yellow;
+}

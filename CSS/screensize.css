@@ -1,22 +1,6 @@
-/* Base styles */
-
-.site-title {
-	margin-bottom: 0;
-}
-.main-menu {
-	padding: .4em 1em;
-	color: white;
-	background-color: hotpink;
-}
-
-.footer-area {
-	padding: .4em 1em;
-	text-align: center;
-	background: hotpink;
-}
-
-
-/* Flexbox stuff */
+/*
+This page implements flexbox based on the screensize.
+*/
 
 @media screen and (min-width: 50em) {
     

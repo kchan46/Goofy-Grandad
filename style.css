@@ -1,13 +1,16 @@
 /*
-The primary stylesheet for the Flexbox Holy Grail layout demo web page.
-This sheet pulls in all the components in order of appearance.
+This page imports all the necessary style sheets for the Goofy Grandad Website.
 */
 
-@import url('CSS/reset.css');
-@import url('CSS/accessibility.css');
-@import url('CSS/typography.css');
-@import url('CSS/holy-grail.css');
-@import url('CSS/all-together.css');
-@import url('CSS/nav-bar.css');
-@import url('CSS/bottom-bar.css');
 @import url('CSS/slider.css');
+@import url('CSS/screensize.css');
+@import url('CSS/navbar.css');
+@import url('CSS/bottombar.css');
+@import url('CSS/aboutbody.css');
+@import url('CSS/homebody.css');
+
+/*Global themes and variables*/
+body {
+    background-color: lightpink;
+    margin: 0;
+}

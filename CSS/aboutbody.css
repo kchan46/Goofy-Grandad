@@ -1,0 +1,26 @@
+/*
+This page contains all the classes that modify the style of the main content on the About page (see about.html)
+*/
+
+.biophoto {
+    width:400px;
+    height: 500px;
+}
+
+.biophoc {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about article{
+    padding: 2em;
+}
+
+.about img {
+    padding: 2em;
+}
