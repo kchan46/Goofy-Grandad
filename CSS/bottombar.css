@@ -3,41 +3,54 @@ This page contains the styling for the bottom bar of the webpage.
 */
 
 .footer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
     background-color: deeppink;
     margin-bottom: 0;
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
 .bottom-bar {
-    float: right;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+    /*float: right;*/
     background-color: deeppink;
     padding: 0px;
 }
 
-.bottom-bar li {
-    background-color: deeppink;
-    list-style-type: none;
+.bottom-link {
+    /*background-color: deeppink;
+    list-style-type: none;*/
     display: inline;
-    padding-top: 10px;
+    /*padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 0px;
     overflow: hidden;
     text-align: center;
-    margin-left: 10px;
+    margin-left: 10px;*/
 }
 
-.bottom-bar li:last-child {
+/*.bottom-bar li:last-child {
     margin-right: 20px;
-}
+}*/
 
-.bottom-bar li, a {
+/*.bottom-bar li, a {
     text-decoration: none;
     color: black;
-}
+}*/
 
-.bottom-bar a {
+/*.bottom-bar a {
     margin: 0px;
-}
+}*/
 
 
 #terms {
