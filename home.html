@@ -14,7 +14,6 @@
 </head>
 
 <body>
-<div class="outer-wrap">
     <div class="header">
         <div class="icon-container">
             <div class="web-icon"><a href="home.html"><img id="web_icon" src="images/goofy_grandad_icon.png"></a></div>
@@ -25,7 +24,7 @@
             <div class="nav-item"><a href="home.html" id="current_page">Home</a></div>
             <div class="nav-item"><a href="about.html">About</a></div>
             <div class="nav-item"><a href="https://www.youtube.com/channel/UCuxOkEi00LqXOWA1GqS7SDg"
-                   target="_blank">Videos</a></div>
+                                     target="_blank">Videos</a></div>
             <div class="nav-item"><a href="shop.html">Shop</a></div>
             <div class="nav-item"><a href="events.html">Events</a></div>
             <div class="nav-item"><a href="review.html">Review</a></div>
@@ -34,54 +33,57 @@
         </div>
     </div>
 
-    <div class= "elements">
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-            <img src="images/elephantwalk.jpg" alt="" class="img-responsive" width="550" height ="360"/>
-        </div>
-        <div class="mySlides fade">
-            <img src="images/sammy.jpg" alt="" class="img-responsive" width="550" height ="360"/>
-        </div>
-        <div class="mySlides fade">
-            <img src="images/partial_bookcover.jpg" alt="" class="img-responsive" width="550" height ="360"/>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
+    <div class="home-wrap">
+        <div class= "elements">
+            <div class="slideshow-container">
+                <div class="left-switch"><a class="prev" onclick="plusSlides(-1)">&#10094;</a></div>
+                <div class="mySlides fade">
+                    <img src="images/elephantwalk.jpg" alt="" class="img-responsive" width="550" height ="360"/>
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/sammy.jpg" alt="" class="img-responsive" width="550" height ="360"/>
+                </div>
+                <div class="mySlides fade">
+                    <img src="images/partial_bookcover.jpg" alt="" class="img-responsive" width="550" height ="360"/>
+                </div>
+                <div class="right-switch"><a class="next" onclick="plusSlides(1)">&#10095;</a></div>
+            </div>
 
-      <div class="home-video">
-          <iframe class="img-responsive" width="550" height ="360"
-                  src="https://www.youtube.com/embed/5UNkjgf5Uao?ecver=1"
-                  frameborder="0" allowfullscreen>
-          </iframe>
-      </div>
-    </div>
+            <div class="home-video">
+                <iframe class="img-responsive" width="550" height ="360"
+                        src="https://www.youtube.com/embed/5UNkjgf5Uao?ecver=1"
+                        frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
 
-    <div class="message">
-        <h2>Dedicated to bringing messages of &nbsp; <span class="pink">
-                love </span> &nbsp; and &nbsp; <span class="yellow"> happiness </span> &nbsp;
+        <div class="message">
+            Dedicated to bringing messages of <span class="pink">love</span> and <span class="yellow">happiness</span>
             to kids and seniors.
-        </h2>
+        </div>
     </div>
 
     <div class="footer">
-        <div class="social-media-icons bottom-link">
-            <a href="https://www.facebook.com/GOOFY-Grandad-304161619685945/"
-               target="_blank">
-                <span id="facebook" class="fa fa-facebook-official"></span>
-            </a>
-            <a href="https://www.youtube.com/channel/UCuxOkEi00LqXOWA1GqS7SDg"
-               target="_blank">
-                <span id="youtube" class="fa fa-youtube-square"></span>
-            </a>
+        <div class="bottom-link social-media-icons">
+            <div class="facebook-icon">
+                <a href="https://www.facebook.com/GOOFY-Grandad-304161619685945/"
+                   target="_blank">
+                    <span id="facebook" class="fa fa-facebook-official"></span>
+                </a>
+            </div>
+            <div class="youtube-icon">
+                <a href="https://www.youtube.com/channel/UCuxOkEi00LqXOWA1GqS7SDg"
+                   target="_blank">
+                    <span id="youtube" class="fa fa-youtube-square"></span>
+                </a>
+            </div>
         </div>
+
         <div id="company_name" class="bottom-link">The Powerfilled Thinking Group, Inc.</div>
         <div id="copyright" class="bottom-link">© Goofy Grandad 2017</div>
         <div id="terms" class="bottom-link"><a href="about.html">Terms & Conditions</a></div>
-        <div><a href="contact.html">Contact</a></div>
+        <div class="bottom-link"><a href="contact.html">Contact</a></div>
     </div>
-
-</div><!-- .outer-wrap -->
 <script src="slider.js"></script>
 </body>
 

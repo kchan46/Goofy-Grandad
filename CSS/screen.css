@@ -2,17 +2,15 @@
 This page implements flexbox based on the screensize.
 */
 
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 @media screen and (min-width: 50em) {
-    
-    .outer-wrap {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-    }
-    
-    .main-area {
-        display: flex;
-    }
+
 }
