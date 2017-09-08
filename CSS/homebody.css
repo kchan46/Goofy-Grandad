@@ -16,9 +16,6 @@ This page contains all the classes that modify the style of the main content on 
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 3%;
-    
-    overflow-y: auto;
-    overflow-x: auto;
 }
 
 .slideshow-container {

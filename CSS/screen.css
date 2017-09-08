@@ -10,6 +10,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    /*border: 5px solid blue;*/
 }
 @media screen and (min-width: 50em) {
 

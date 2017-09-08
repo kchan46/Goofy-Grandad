@@ -9,8 +9,7 @@ This page contains the styling for the bottom bar of the webpage.
     background-color: deeppink;
     margin-top: auto;
     flex-wrap: wrap;
-    
-    flex: 1 1 auto;
+    /*flex: 1 1 auto;*/
 }
 
 .bottom-link {
