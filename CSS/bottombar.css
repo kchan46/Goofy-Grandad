@@ -3,78 +3,21 @@ This page contains the styling for the bottom bar of the webpage.
 */
 
 .footer {
-    display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-around;
     background-color: deeppink;
-    margin-bottom: 0;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-}
-
-.bottom-bar {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
-    -webkit-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    flex-direction: column-reverse;
-    /*float: right;*/
-    background-color: deeppink;
-    padding: 0px;
+    margin-top: auto;
 }
 
 .bottom-link {
-    /*background-color: deeppink;
-    list-style-type: none;*/
-    display: inline;
-    /*padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 0px;
-    overflow: hidden;
-    text-align: center;
-    margin-left: 10px;*/
-}
-
-/*.bottom-bar li:last-child {
-    margin-right: 20px;
-}*/
-
-/*.bottom-bar li, a {
-    text-decoration: none;
-    color: black;
-}*/
-
-/*.bottom-bar a {
-    margin: 0px;
-}*/
-
-
-#terms {
-    border-right: solid black 1px;
-    border-left: solid black 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-#company_name, #copyright {
-    margin-right: 60px;
+    width: auto;
 }
 
 #facebook, #youtube {
-    padding: 0px;
-    margin-top: 5px;
-    float: left;
     font-size: 50px;
 }
 
 #facebook {
-    margin-left: 50px;
-}
-
-#youtube {
-    margin-left: 20px;
+    margin-right: 10px;
 }
