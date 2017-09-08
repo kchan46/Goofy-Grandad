@@ -5,6 +5,10 @@ This page contains all the classes that modify the style of the main content on 
 .home-wrap {
     margin-top: 3%;
     margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    border: solid 5px blue;
+    flex: 1 1 auto;
 }
 
 .elements {
@@ -12,6 +16,8 @@ This page contains all the classes that modify the style of the main content on 
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 3%;
+    border: solid 5px purple;
+    overflow: auto;
 }
 
 .slideshow-container {
