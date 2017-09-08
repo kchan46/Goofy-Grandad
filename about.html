@@ -25,24 +25,22 @@
 <body>
 <div class="outer-wrap">
     <div class="header">
-        <a href="home.html">
-            <span id="nav-placeholder"></span>
-            <img id="web_icon" src="images/goofy_grandad_icon.png">
-            <img id="web_title" src="images/web_title_new.png">
-        </a>
+        <div class="icon-container">
+            <div class="web-icon"><a href="home.html"><img id="web_icon" src="images/goofy_grandad_icon.png"></a></div>
+            <div class="web-title"><a href="home.html"><img id="web_title" src="images/web_title_new.png"></a></div>
+        </div>
 
-        <ul class="nav-bar">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html" id="current_page">About</a></li>
-            <li><a href="https://www.youtube.com/channel/UCuxOkEi00LqXOWA1GqS7SDg"
-                   target="_blank">Videos</a>
-            </li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="review.html">Review</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-        </ul>
+        <div class="nav-container">
+            <div class="nav-item"><a href="home.html" id="current_page">Home</a></div>
+            <div class="nav-item"><a href="about.html">About</a></div>
+            <div class="nav-item"><a href="https://www.youtube.com/channel/UCuxOkEi00LqXOWA1GqS7SDg"
+                                     target="_blank">Videos</a></div>
+            <div class="nav-item"><a href="shop.html">Shop</a></div>
+            <div class="nav-item"><a href="events.html">Events</a></div>
+            <div class="nav-item"><a href="review.html">Review</a></div>
+            <div class="nav-item"><a href="contact.html">Contact</a></div>
+            <div class="nav-item"><a href="faq.html">FAQ</a></div>
+        </div>
     </div>
 
 
@@ -74,20 +72,25 @@
 
 
     <div class="footer">
-        <a href="https://www.facebook.com/GOOFY-Grandad-304161619685945/"
-           target="_blank">
-            <span id="facebook" class="fa fa-facebook-official"></span>
-        </a>
-        <a href="https://www.youtube.com/channel/UCuxOkEi00LqXOWA1GqS7SDg"
-           target="_blank">
-            <span id="youtube" class="fa fa-youtube-square"></span>
-        </a>
-        <ul class="bottom-bar">
-            <li id="company_name">The Powerfilled Thinking Group, Inc.</li>
-            <li id="copyright">© Goofy Grandad 2017</li>
-            <li id="terms"><a href="about.html">Terms & Conditions</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="bottom-link social-media-icons">
+            <div class="facebook-icon">
+                <a href="https://www.facebook.com/GOOFY-Grandad-304161619685945/"
+                   target="_blank">
+                    <span id="facebook" class="fa fa-facebook-official"></span>
+                </a>
+            </div>
+            <div class="youtube-icon">
+                <a href="https://www.youtube.com/channel/UCuxOkEi00LqXOWA1GqS7SDg"
+                   target="_blank">
+                    <span id="youtube" class="fa fa-youtube-square"></span>
+                </a>
+            </div>
+        </div>
+
+        <div id="company_name" class="bottom-link">The Powerfilled Thinking Group, Inc.</div>
+        <div id="copyright" class="bottom-link">© Goofy Grandad 2017</div>
+        <div id="terms" class="bottom-link"><a href="about.html">Terms & Conditions</a></div>
+        <div class="bottom-link"><a href="contact.html">Contact</a></div>
     </div>
 
 

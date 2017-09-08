@@ -7,7 +7,7 @@ This page contains the styling for the navigation bar of the webpage.
     display: flex;
     margin-top: 3%;
     flex-wrap: wrap;
-    border: solid 5px red;
+  
 }
 
 #icon1-item {
