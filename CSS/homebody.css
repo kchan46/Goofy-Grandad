@@ -17,7 +17,8 @@ This page contains all the classes that modify the style of the main content on 
     flex-wrap: wrap;
     margin-bottom: 3%;
     border: solid 5px purple;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: auto;
 }
 
 .slideshow-container {
