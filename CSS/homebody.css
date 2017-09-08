@@ -4,14 +4,14 @@ This page contains all the classes that modify the style of the main content on 
 
 .elements {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 3%;
     margin-bottom: 3%;
     flex-wrap: wrap;
 }
 
-.slideshow-container, .home-video{
-    width: auto;
+.slideshow-container {
+    flex-basis: auto;
 }
 
 .message h2{
