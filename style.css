@@ -2,12 +2,12 @@
 This page imports all the necessary style sheets for the Goofy Grandad Website.
 */
 
-@import url('CSS/slider.css');
-@import url('CSS/screen.css');
-@import url('CSS/navbar.css');
-@import url('CSS/bottombar.css');
-@import url('CSS/aboutbody.css');
-@import url('CSS/homebody.css');
+@import url('css/slider.css');
+@import url('css/screen.css');
+@import url('css/navbar.css');
+@import url('css/bottombar.css');
+@import url('css/aboutbody.css');
+@import url('css/homebody.css');
 
 /*Global themes and variables*/
 body {

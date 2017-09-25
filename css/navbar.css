@@ -49,6 +49,6 @@ This page contains the styling for the navigation bar of the webpage.
     height: 50px;
 }
 
-#current_page {
+#current_nav_item {
     color: yellow;
 }

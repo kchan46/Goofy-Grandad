@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<?php $currentPage = "about" ?>
+
 <html lang="en-US">
 
 <head>
@@ -23,25 +25,7 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="icon-container">
-            <div class="web-icon"><a href="home.html"><img id="web_icon" src="images/goofy_grandad_icon.png"></a></div>
-            <div class="web-title"><a href="home.html"><img id="web_title" src="images/web_title_new.png"></a></div>
-        </div>
-
-        <div class="nav-container">
-            <div class="nav-item"><a href="home.html">Home</a></div>
-            <div class="nav-item"><a href="about.html" id="current_page">About</a></div>
-            <div class="nav-item"><a href="https://www.youtube.com/channel/UCuxOkEi00LqXOWA1GqS7SDg"
-                                     target="_blank">Videos</a></div>
-            <div class="nav-item"><a href="shop.html">Shop</a></div>
-            <div class="nav-item"><a href="events.html">Events</a></div>
-            <div class="nav-item"><a href="review.html">Review</a></div>
-            <div class="nav-item"><a href="contact.html">Contact</a></div>
-            <div class="nav-item"><a href="faq.html">FAQ</a></div>
-        </div>
-    </div>
-
+    <?php include "header.php";?>
 
     <div class="content">
         <main class="main-area">
@@ -69,28 +53,7 @@
         </main>
     </div>
 
-
-    <div class="footer">
-        <div class="bottom-link social-media-icons">
-            <div class="facebook-icon">
-                <a href="https://www.facebook.com/GOOFY-Grandad-304161619685945/"
-                   target="_blank">
-                    <span id="facebook" class="fa fa-facebook-official"></span>
-                </a>
-            </div>
-            <div class="youtube-icon">
-                <a href="https://www.youtube.com/channel/UCuxOkEi00LqXOWA1GqS7SDg"
-                   target="_blank">
-                    <span id="youtube" class="fa fa-youtube-square"></span>
-                </a>
-            </div>
-        </div>
-
-        <div id="company_name" class="bottom-link">The Powerfilled Thinking Group, Inc.</div>
-        <div id="copyright" class="bottom-link">© Goofy Grandad 2017</div>
-        <div id="terms" class="bottom-link"><a href="about.html">Terms & Conditions</a></div>
-        <div class="bottom-link"><a href="contact.html">Contact</a></div>
-    </div>
+    <?php include "footer.php";?>
 </body>
 
 </html>
