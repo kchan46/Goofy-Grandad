@@ -8,9 +8,3 @@ This page imports all the necessary style sheets for the Goofy Grandad Website.
 @import url('css/bottombar.css');
 @import url('css/aboutbody.css');
 @import url('css/homebody.css');
-
-/*Global themes and variables*/
-body {
-    background-color: lightpink;
-    margin: 0;
-}

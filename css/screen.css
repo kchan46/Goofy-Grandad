@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     /*border: 5px solid blue;*/
+    background-color: lightpink;
 }
 @media screen and (min-width: 50em) {
 
