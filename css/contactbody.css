@@ -1,0 +1,24 @@
+.contact_icon {
+
+    width:20%; /* you can use % */
+    height: 20%;
+    line-height: 50%
+
+}
+
+
+
+.contact {
+         display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-body {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+   
+    flex: 1 1 auto;
+}

@@ -16,7 +16,9 @@
         <div class="nav-item"><a href="shop.html">Shop</a></div>
         <div class="nav-item"><a href="events.html">Events</a></div>
         <div class="nav-item"><a href="review.html">Review</a></div>
-        <div class="nav-item"><a href="contact.html">Contact</a></div>
+        <div class="nav-item" >
+            <a href="contact.php" <?php if ($currentPage == "contact") {echo "id=\"current_nav_item\"";}?>>
+                Contact</a></div>
         <div class="nav-item"><a href="faq.html">FAQ</a></div>
     </div>
 </div>
