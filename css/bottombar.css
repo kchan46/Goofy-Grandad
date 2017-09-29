@@ -6,10 +6,14 @@ This page contains the styling for the bottom bar of the webpage.
     position: absolute;
     left: 0;
     bottom: 0;
+
+    /*The above 3 lines of code is part of the key fix to the bottom bar jumping problem. Somehow the
+    footer now recognize the html as its ancestor and positions absolutely with it.*/
+
     display: flex;
-    height: 50px;
+    /*height: 50px;*/
     width: 100%;
-    overflow:hidden;
+    /*overflow:hidden;*/
     align-items: center;
     justify-content: space-around;
     background-color: deeppink;

@@ -3,50 +3,54 @@ This page contains the styling for the navigation bar of the webpage.
 */
 
 .header {
-    width: 100%;
+    /*width: 100%;*/
     display: flex;
     margin-top: 3%;
     flex-wrap: wrap;
+    border: solid 5px orangered;
 }
 
-#icon1-item {
-    height: 50px;
-    width: 50px;
+/*.icon-container {*/
+    /*display: flex;*/
+    /*justify-self: flex-start;*/
+    /*flex-wrap: wrap;*/
+    /*width: 30%;*/
+    /*margin-left: 3%;*/
+/*}*/
+
+#web_icon, #web_title {
+    height: 3.5em;
 }
 
-.icon-container {
-    display: flex;
-    justify-self: flex-start;
-    flex-wrap: wrap;
-    width: 30%;
-    margin-left: 3%;
+.web-icon {
+    border: solid 5px blue;
+    height: 4em;
+    margin-left: 3em;
 }
 
 .nav-container {
-    display: flex;
     margin-left: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
     background-color: deeppink;
-    width: 60%;
+    height: 4em;
+    border: solid 5px black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .nav-item {
     width: auto;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 
 .nav-item a {
     color: black;
+    font-weight: bold;
     text-decoration: none;
-}
-
-#web_icon, #web_title {
-    height: 50px;
-}
-
-#web_icon, #web_title {
-    height: 50px;
+    font-size: 1em;
 }
 
 #current_nav_item {

@@ -37,7 +37,7 @@
 
             <div class="home-video">
                 <iframe class="img-responsive" width="550" height ="360"
-                        src="https://www.youtube.com/embed/5UNkjgf5Uao?ecver=1"
+                        src="https://www.youtube.com/embed/o7wOFAASi5Y"
                         frameborder="0" allowfullscreen>
                 </iframe>
             </div>
