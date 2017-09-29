@@ -3,8 +3,8 @@ This page contains all the classes that modify the style of the main content on 
 */
 
 .home-wrap {
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 2em;
+    margin-bottom: 2em;
     display: flex;
     flex-direction: column;
    
@@ -18,8 +18,9 @@ This page contains all the classes that modify the style of the main content on 
     margin-bottom: 3%;
 }
 
-.slideshow-container {
-
+.slideshow-container, .home-video {
+    margin-bottom: 2em;
+    border: 5px solid black;
 }
 
 .message {
