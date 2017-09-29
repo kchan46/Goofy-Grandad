@@ -35,26 +35,22 @@
                 <img id="phone_icon" src="images/phone_icon.png" width="50" height="50">
                 <p class="descriptor" style="padding-left: 2em;">404-447-3066</p>
             </div>
-
-            <div style="display: flex; flex-direction: row; padding-top: 2em;">
-                <img id="mail_icon" src="images/mail_icon.png" width="50" height="50">
-                <p class="descriptor" style="padding-left: 2em;">yourgoofygrandad@gmail.com</p>
-            </div>
-
-        </div>
-
-        <div class= "form">
-            <form action="mailto:tstillman3@gatech.edu" method="post" enctype="text/plain">
-            Name:<br>
-                <input type="text" name="name"><br>
+               
+            <div class= "form">
+               
+                <form action="email.php" name="form" method="post">
+                Name:<br>
+                <input type="text" name="name" required><br>
                 E-mail:<br>
-                <input type="text" name="mail"><br>
+                <input type="text" name="mail" required><br>
                 Comment:<br>
-                <textarea name="text" rows="13" wrap="soft" style="width:100%;"></textarea><br>
-                <input type="submit" value="Send" class="button">
-            </form>
-         </div>
-
+                <textarea name="text" rows="14" cols="21.75" wrap="soft" required></textarea>
+                <input type="submit" name="submit" value="Send">
+                </form>
+                </div>
+            </div>
+   </div>
+    </div>
 
     <?php include "footer.php";?>
 
