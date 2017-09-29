@@ -1,24 +1,23 @@
-/*
-This page contains the styling for the bottom bar of the webpage.
-*/
 
 .footer {
     position: absolute;
     left: 0;
     bottom: 0;
+
+    /*The above 3 lines of code is part of the key fix to the bottom bar jumping problem. Somehow the
+    footer now recognize the html as its ancestor and positions absolutely with it.*/
+
     display: flex;
-    height: 50px;
     width: 100%;
-    overflow:hidden;
     align-items: center;
     justify-content: space-around;
     background-color: deeppink;
     flex-wrap: wrap;
-    /*flex: 1 1 auto;*/
 }
 
 .bottom-link {
     width: auto;
+    /*border: 5px solid blue;*/
 }
 
 .bottom-link a{
@@ -28,13 +27,12 @@ This page contains the styling for the bottom bar of the webpage.
 
 .social-media-icons {
     display: flex;
+    justify-content: space-around;
+    /*border: 5px solid yellow;*/
+    width: 7.5em;
 }
 
 #facebook, #youtube {
     font-size: 3em;
     color: black;
-}
-
-.facebook-icon {
-    margin-right: 15%;
 }

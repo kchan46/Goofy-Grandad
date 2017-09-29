@@ -7,7 +7,7 @@
             </a>
         </div>
         <div class="youtube-icon">
-            <a href="https://www.youtube.com/channel/UCuxOkEi00LqXOWA1GqS7SDg"
+            <a href="https://www.youtube.com/channel/UCqppi0-9FmF-o3b4gDNUWng/featured"
                target="_blank">
                 <span id="youtube" class="fa fa-youtube-square"></span>
             </a>
