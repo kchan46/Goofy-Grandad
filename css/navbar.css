@@ -1,29 +1,17 @@
-/*
-This page contains the styling for the navigation bar of the webpage.
-*/
 
 .header {
-    /*width: 100%;*/
     display: flex;
     margin-top: 3%;
     flex-wrap: wrap;
-    border: solid 5px orangered;
+    /*border: solid 5px orangered;*/
 }
-
-/*.icon-container {*/
-    /*display: flex;*/
-    /*justify-self: flex-start;*/
-    /*flex-wrap: wrap;*/
-    /*width: 30%;*/
-    /*margin-left: 3%;*/
-/*}*/
 
 #web_icon, #web_title {
     height: 3.5em;
 }
 
 .web-icon {
-    border: solid 5px blue;
+    /*border: solid 5px blue;*/
     height: 4em;
     margin-left: 3em;
 }
@@ -32,7 +20,7 @@ This page contains the styling for the navigation bar of the webpage.
     margin-left: auto;
     background-color: deeppink;
     height: 4em;
-    border: solid 5px black;
+    /*border: solid 5px black;*/
 
     display: flex;
     justify-content: space-around;

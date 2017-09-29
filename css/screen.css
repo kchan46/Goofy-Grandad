@@ -1,12 +1,9 @@
-/*
-This page implements flexbox based on the screensize.
-*/
 
 html {
     position: relative;
     /*I think the above line is part of the key fix to bottom bar jumping problem. (Gonghan)*/
     min-height: 100%;
-    border: 5px solid purple;
+    /*border: 5px solid purple;*/
 }
 
 body {
@@ -14,13 +11,11 @@ body {
     /*I think the above line is part of the key fix to the bottom bar jumping problem.
     It gives a margin between the body and the html, and somehow this makes the ancestor of the
     footer appears to be the html. (Gonghan)*/
-    /*padding: 25px;*/
 
     display: flex;
     flex-direction: column;
-    /*border: 5px solid blue;*/
     background-color: lightpink;
-    border: 5px solid yellow;
+    /*border: 5px solid yellow;*/
 }
 @media screen and (min-width: 50em) {
 

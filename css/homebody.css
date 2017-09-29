@@ -7,7 +7,6 @@ This page contains all the classes that modify the style of the main content on 
     margin-bottom: 2em;
     display: flex;
     flex-direction: column;
-   
     flex: 1 1 auto;
 }
 
@@ -20,7 +19,7 @@ This page contains all the classes that modify the style of the main content on 
 
 .slideshow-container, .home-video {
     margin-bottom: 2em;
-    border: 5px solid black;
+    /*border: 5px solid black;*/
 }
 
 .message {
