@@ -50,7 +50,7 @@
                 E-mail:<br>
                 <input type="text" name="mail"><br>
                 Comment:<br>
-                <textarea name="text" rows="8" wrap="soft" style="width:100%;"></textarea><br>
+                <textarea name="text" rows="13" wrap="soft" style="width:100%;"></textarea><br>
                 <input type="submit" value="Send" class="button">
             </form>
          </div>
