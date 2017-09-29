@@ -35,14 +35,15 @@
             </div>
                
             <div class= "form">
-                <form action="mailto:tstillman3@gatech.edu" method="post" enctype="text/plain">
+               
+                <form action="email.php" name="form" method="post">
                 Name:<br>
                 <input type="text" name="name"><br>
                 E-mail:<br>
                 <input type="text" name="mail"><br>
                 Comment:<br>
                 <textarea name="text" rows="14" cols="21.75" wrap="soft"></textarea>
-                <input type="submit" value="Send">
+                <input type="submit" name="submit" value="Send">
                 </form>
                 </div>
             </div>
