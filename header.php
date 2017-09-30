@@ -1,4 +1,3 @@
-
 <div class="header">
     <div class="web-icon"><a href="home.php"><img id="web_icon" src="images/goofy_grandad_icon.png"></a></div>
     <div class="web-title"><a href="home.php"><img id="web_title" src="images/web_title_new.png"></a></div>
@@ -15,7 +14,8 @@
         <div class="nav-item"><a href="shop.html">Shop</a></div>
         <div class="nav-item"><a href="events.html">Events</a></div>
         <div class="nav-item"><a href="review.html">Review</a></div>
-        <div class="nav-item"><a href="contact.php" <?php if ($currentPage == "contact") {echo "id=\"current_nav_item\"";}?>>
+        <div class="nav-item" >
+            <a href="contact.php" <?php if ($currentPage == "contact") {echo "id=\"current_nav_item\"";}?>>
                 Contact</a></div>
         <div class="nav-item"><a href="faq.html">FAQ</a></div>
     </div>

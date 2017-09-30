@@ -20,13 +20,12 @@
                 
             <div class="contact">
                 <div class="contactus">
-                    <h2>Contact Us </h2>
-                    <p> Reach out to Goofy Grandad! 
-                    <br>
-                        He would love to hear from you!</p>
+                <h2>Contact Us </h2>
+                <p> Reach out to Goofy Grandad! 
+                <br>
+                He would love to hear from you!
 
-                        <br>
-                </div>
+                    <br>
                 <div style="display: flex; flex-direction: row; padding-top: 2em;">
                     <img src="images/person_icon.png" width="50" height="50">
                     <p class="descriptor" style="padding-left: 2em;">Joseph Heckstall</p>
