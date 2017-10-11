@@ -1,10 +1,10 @@
 <div class="header">
-    <div class="web-icon"><a href="home.php"><img id="web_icon" src="images/goofy_grandad_icon.png"></a></div>
-    <div class="web-title"><a href="home.php"><img id="web_title" src="images/web_title_new.png"></a></div>
+    <div class="web-icon"><a href="index.php"><img id="web_icon" src="images/goofy_grandad_icon.png"></a></div>
+    <div class="web-title"><a href="index.php"><img id="web_title" src="images/web_title_new.png"></a></div>
 
     <div class="nav-container">
         <div class="nav-item">
-            <a href="home.php" <?php if ($currentPage == "home") {echo "id=\"current_nav_item\"";}?>>
+            <a href="index.php" <?php if ($currentPage == "home") {echo "id=\"current_nav_item\"";}?>>
                 Home</a></div>
         <div class="nav-item" >
             <a href="about.php" <?php if ($currentPage == "about") {echo "id=\"current_nav_item\"";}?>>
