@@ -16,6 +16,6 @@
 
     <div id="company_name" class="bottom-link">The Powerfilled Thinking Group, Inc.</div>
     <div id="copyright" class="bottom-link">© Goofy Grandad 2017</div>
-    <div id="terms" class="bottom-link"><a href="about.php">Terms & Conditions</a></div>
-    <div class="bottom-link"><a href="contact.html">Contact</a></div>
+<!--    <div id="terms" class="bottom-link"><a href="about.php">Terms & Conditions</a></div>-->
+    <div class="bottom-link"><a href="contact.php">Contact</a></div>
 </div>
