@@ -3,13 +3,13 @@ This page contains all the classes that modify the style of the main content on 
 */
 
 .biophoto {
-    width:400px;
-    height: 500px;
+
 }
 
 .biophoc {
     display: flex;
     justify-content: center;
+    max-width: 100%;
 }
 
 .about {

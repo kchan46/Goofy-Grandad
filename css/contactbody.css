@@ -15,7 +15,7 @@
 .form {
     margin-top: 1em;
     border-radius: 5px;
-    background-color: lightpink;
+    background-color: #ffd1ed;
     padding: 20px;
     color: black;
     width:42%;
@@ -34,7 +34,7 @@ input[type=text], select {
 
 input[type=submit] {
     width: 100%;
-    background-color: deeppink;
+    background-color:#ff66c6;
     color: black;
     padding: 14px 20px;
     margin: 8px 0;
@@ -44,12 +44,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: deeppink;
+    background-color: #ff66c6;
 }
 
 
 .button {
-    background-color: pink;
+    background-color: #ff66c6;
 }
 
 .contact-body {

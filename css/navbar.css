@@ -1,4 +1,3 @@
-
 .header {
     display: flex;
     margin-top: 3%;
@@ -6,19 +5,19 @@
     /*border: solid 5px orangered;*/
 }
 
-#web_icon, #web_title {
-    height: 3.5em;
+#web_icon{
+    height: 9em;
 }
 
 .web-icon {
     /*border: solid 5px blue;*/
-    height: 4em;
-    margin-left: 3em;
+    height:9em;
+    margin-left: 2em;
 }
 
 .nav-container {
     margin-left: auto;
-    background-color: deeppink;
+    background-color:#ff66c6;
     height: 4em;
     /*border: solid 5px black;*/
 
@@ -27,20 +26,23 @@
     align-items: center;
     flex-wrap: wrap;
 }
+   
 
-.nav-item {
+.nav-container a {
     width: auto;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-}
-
-.nav-item a {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     color: black;
     font-weight: bold;
     text-decoration: none;
     font-size: 1em;
+    line-height: 4em;
+}
+
+.nav-container a:hover {
+    background-color: #ffff99;
 }
 
 #current_nav_item {
-    color: yellow;
+    color: #ffd1ed;
 }

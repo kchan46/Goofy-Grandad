@@ -19,8 +19,19 @@
     <?php include "header.php";?>
 
 
-        <div class="message" style="padding-top: 3em;">
-            Sorry for the inconvenience, but this page is currently under construction. Please try again at a later date.
+        <div class="events">
+            <div class = "eventsmessage">
+                <h2> Schedule an event today! </h2>
+                <p>Goofy Grandad provides services for a variety of events.
+                He specializes in motivational speaking and entertainment
+                for kids and seniors. </p>
+                <button class="bookButton"><a href="contact.php" style="text-decoration:none; color: black;"> Contact Goofy Grandad</a></button>
+            </div> 
+        
+            <div class="timeline">
+                This is a placeholder for the facebook timeline.
+                <img src="images/joe.jpg">
+            </div>
         </div>
 
 

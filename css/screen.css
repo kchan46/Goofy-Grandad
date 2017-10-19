@@ -1,4 +1,3 @@
-
 html {
     position: relative;
     /*I think the above line is part of the key fix to bottom bar jumping problem. (Gonghan)*/
@@ -14,9 +13,10 @@ body {
 
     display: flex;
     flex-direction: column;
-    background-color: lightpink;
+    background-color:#ffd1ed;
     /*border: 5px solid yellow;*/
 }
+
 @media screen and (min-width: 50em) {
 
 }

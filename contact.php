@@ -18,41 +18,42 @@
 <body>
     <?php include "header.php";?>
                 
-            <div class="contact">
-                <div class="contactus">
-                <h2>Contact Us </h2>
-                <p> Reach out to Goofy Grandad! 
-                <br>
-                He would love to hear from you!
+        <div class="contact">
+            <div class="contactus">
+            <h2>Contact Us </h2>
+            <p> Reach out to Goofy Grandad! 
+            <br>
+                He would love to hear from you!</p>
 
-                    <br>
-                <div style="display: flex; flex-direction: row; padding-top: 2em;">
-                    <img src="images/person_icon.png" width="50" height="50">
-                    <p class="descriptor" style="padding-left: 2em;">Joseph Heckstall</p>
-                </div>
-                
-                <div style="display: flex; flex-direction: row; padding-top: 2em;">
-                    <img id="phone_icon" src="images/phone_icon.png" width="50" height="50">
-                    <p class="descriptor" style="padding-left: 2em;">404-447-3066</p>
-                </div>
-                
-                <div style="display: flex; flex-direction: row; padding-top: 2em;">
-                    <img id="mail_icon" src="images/mail_icon.png" width="50" height="50">
-                    <p class="descriptor" style="padding-left: 2em;">yourgoofygrandad@gmail.com</p>
-                </div>
+                <br>
+            <div style="display: flex; flex-direction: row; padding-top: 2em;">
+                <img src="images/person_icon.png" width="50" height="50">
+                <p class="descriptor" style="padding-left: 2em;">Joseph Heckstall</p>
             </div>
-               
-            <div class= "form">
-                <form action="email.php" name="form" method="post">
-                Name:<br>
-                <input type="text" name="name" required><br>
-                E-mail:<br>
-                <input type="text" name="mail" required><br>
-                Comment:<br>
-                <textarea name="text" rows="13" wrap="soft" style="width:100%;" required></textarea><br>
-                <input type="submit" name="submit" value="Send" class="button" style:"font-weight: bold; font-size: 200%;">
-                </form>
-             </div>
+
+            <div style="display: flex; flex-direction: row; padding-top: 2em;">
+                <img id="phone_icon" src="images/phone_icon.png" width="50" height="50">
+                <p class="descriptor" style="padding-left: 2em;">404-447-3066</p>
+            </div>
+
+            <div style="display: flex; flex-direction: row; padding-top: 2em;">
+                <img id="mail_icon" src="images/mail_icon.png" width="50" height="50">
+                <p class="descriptor" style="padding-left: 2em;">yourgoofygrandad@gmail.com</p>
+            </div>
+        </div>
+
+        <div class= "form">
+            <form action="email.php" name="form" method="post">
+            Name:<br>
+            <input type="text" name="name" required><br>
+            E-mail:<br>
+            <input type="text" name="mail" required><br>
+            Comment:<br>
+            <textarea name="text" rows="13" wrap="soft" style="width:100%;" required></textarea><br>
+            <input type="submit" name="submit" value="Send" class="button" style:"font-weight: bold; font-size: 200%;">
+            </form>
+         </div>
+    </div>
 
 
     <?php include "footer.php";?>

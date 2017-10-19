@@ -47,7 +47,7 @@
                     </p>
                 </article>
                 <div class="biophoc">
-                    <img src="images/jh.png" class="biophoto">
+                    <img src="images/joe.jpg" class="biophoto">
                 </div>
             </section>
         </main>
