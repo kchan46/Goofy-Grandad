@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    
     <?php include "header.php";?>
 
 
@@ -29,8 +30,10 @@
             </div> 
         
             <div class="timeline">
-                This is a placeholder for the facebook timeline.
-                <img src="images/joe.jpg">
+                
+                <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FGOOFY-Grandad-304161619685945&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435"
+scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:500px; height:430px; background: white; float:left; " allowTransparency="true">
+</iframe>
             </div>
         </div>
 
