@@ -16,6 +16,14 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
     
     <?php include "header.php";?>
 
@@ -31,9 +39,7 @@
         
             <div class="timeline">
                 
-                <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FGOOFY-Grandad-304161619685945&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435"
-scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:500px; height:430px; background: white; float:left; " allowTransparency="true">
-</iframe>
+                <div class="fb-page" data-href="https://www.facebook.com/GOOFY-Grandad-304161619685945/" data-width=500px data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/GOOFY-Grandad-304161619685945/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/GOOFY-Grandad-304161619685945/">GOOFY Grandad</a></blockquote></div>
             </div>
         </div>
 
